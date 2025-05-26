@@ -1,8 +1,15 @@
+.shared {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.shared,
 .first {
     background-color: black;
     color: white;
 }
 
+.shared,
 .second {
     background-color: yellow;
 }
