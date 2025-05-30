@@ -17,6 +17,7 @@ img {
 
 .container {
   display: flex;
+  gap: 52px;
 }
 
 .media-object {
