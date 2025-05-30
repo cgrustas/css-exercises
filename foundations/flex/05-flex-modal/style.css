@@ -36,6 +36,8 @@ body {
   align-items: center;
   justify-content: center;
   flex: none;
+  /* REFACTOR LATER */
+  margin-right: 20px; 
 }
 
 .close-button {
