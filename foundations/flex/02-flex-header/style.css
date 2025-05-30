@@ -21,6 +21,8 @@ ul {
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
