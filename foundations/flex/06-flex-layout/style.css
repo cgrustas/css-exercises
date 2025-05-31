@@ -44,3 +44,8 @@ a {
   display: flex;
   padding: 10px;
 }
+
+.left-links,
+.right-links {
+  gap: 10px;
+}
