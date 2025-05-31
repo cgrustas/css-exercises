@@ -58,3 +58,7 @@ a {
   font-size: 24px;
   color: white;
 }
+
+.content {
+  padding: 48px;
+}
