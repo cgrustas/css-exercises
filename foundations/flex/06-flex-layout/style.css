@@ -42,4 +42,5 @@ a {
 .header,
 .footer {
   display: flex;
+  padding: 10px;
 }
