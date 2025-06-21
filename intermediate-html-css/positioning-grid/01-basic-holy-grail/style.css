@@ -11,6 +11,7 @@ html {
   box-sizing: border-box;
   display: grid;
   gap: 15px;
+  grid-template: repeat(4, 1fr) / repeat(2, 1fr);
 }
 
 .container div {
