@@ -25,8 +25,13 @@ ul {
 .header {
   background-color: #393f4d;
   display: grid;
-  grid-template-columns: subgrid;
+  grid-template-columns: 1fr 2fr;
   grid-column: 1 / -1;
+  align-items: center;
+}
+
+.logo {
+  justify-self: start;
 }
 
 .menu ul,
@@ -36,6 +41,7 @@ ul {
 
 .menu ul {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .sidebar {
