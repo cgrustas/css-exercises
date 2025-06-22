@@ -58,6 +58,9 @@
 
 .nav {
   background-color: #C50208;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: -1;
 }
 
 .nav ul {
