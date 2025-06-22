@@ -37,6 +37,8 @@
 .sidebar {
   background-color: #C50208;
   display: grid;
+  /* grid-template-columns: subgrid;
+  grid-column-start: 1; */
   gap: 50px;
 }
 
@@ -60,7 +62,7 @@
   background-color: #C50208;
   display: grid;
   grid-template-columns: subgrid;
-  grid-column: -1;
+  grid-column: 2;
 }
 
 .nav ul {
@@ -76,7 +78,7 @@
   background-color: #bccbde;
   display: grid;
   grid-template-columns: subgrid;
-  grid-column: -1;
+  grid-column-start: 2;
 }
 
 .article p {
