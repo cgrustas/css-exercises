@@ -48,7 +48,7 @@
   border-radius: 10px;
 }
 
-
+/* TODO: Center text elements in sidebar with grid? */
 .sidebar .side-content {
   background-color: white;
   color: black;
@@ -71,6 +71,9 @@
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: -1;
 }
 
 .article p {
